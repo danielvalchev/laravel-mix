@@ -18,6 +18,7 @@ global.tap = function(val, callback) {
  * @param {mixed}    val
  * @param {Function} callback
  */
+if (!Array.prototype.hasOwnProperty('tap')) {
 Object.defineProperty(Array.prototype, 'tap', {
     value: function(callback) {
         if (this.length) {
@@ -27,6 +28,7 @@ Object.defineProperty(Array.prototype, 'tap', {
         return this;
     }
 });
+}
 
 /**
  * Flatten the given array.
