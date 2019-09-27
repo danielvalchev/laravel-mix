@@ -1,7 +1,6 @@
 {
     "name": "laravel-mix-version-fixed",
-    "version": "5.0.0",
-    "description": "Laravel Mix is an elegant wrapper around Webpack for the 80% use case.",
+    "version": "1.0.0",
     "main": "src/index.js",
     "scripts": {
         "webpack": "NODE_ENV=development webpack --progress --hide-modules",
@@ -23,7 +22,6 @@
         "laravel elixir",
         "laravel mix"
     ],
-    "author": "Jeffrey Way",
     "license": "MIT",
     "files": [
         "icons",
